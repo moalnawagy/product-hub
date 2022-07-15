@@ -1,0 +1,5 @@
+* when user logged in system checks if his email is active or not and if not system will activate his account automaticly
+
+* I used socket io to keep the user oniline while connected and sticked his id by socket id to make hin offline when dissconnect
+
+
