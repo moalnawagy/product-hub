@@ -57,3 +57,8 @@ Create pdf contain id,title,desc,price of every product created today and send t
 - Update comment ( by comment owner only )
 - Delete comment ( by comment owner and product owner ) 
 - Like/unlike comment 
+
+Note:
+
+I've tried to use redis to cache socket id for users and I used room for authenticated users where users must send the token to the server then server enables them to enter this room and emitting all data throw this room only.
+
